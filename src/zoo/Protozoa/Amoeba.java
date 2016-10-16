@@ -4,6 +4,7 @@ import zoo.animal.IAnimal;
 
 /**
  * Created by gharpure on 10/14/16.
+ * This class fulfils the IAnimal contract by implementing all the methods
  */
 public class Amoeba implements IAnimal {
 

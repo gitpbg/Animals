@@ -7,10 +7,17 @@ import zoo.mammals.Cow;
 import zoo.mammals.Dog;
 import zoo.mammals.Fox;
 
+/*
+    The Main class
+    This is where the action starts and ends
+ */
+
 public class Main {
 
     public static void main(String[] args) {
+        //array of IAnimal objects
         IAnimal[] animals = new IAnimal[4];
+        //Note how Dog, Cat, Cow, Amoeba are all IAnimal
         animals[0] = new Dog();
         animals[1] = new Cat();
         animals[2] = new Cow();
